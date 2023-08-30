@@ -1,1 +1,230 @@
+1.
+Question 1
+Imagine you are building an Android app in which you will need multiple UI elements consisting of the same structure. Which of the following is true about how you should define the composable for this UI element?
 
+1 / 1 point
+
+You should use the traditional view system instead.
+
+
+
+You should define the composable once in such a way that it is reusable. 
+
+
+
+You should ensure the composable is the root of the tree
+
+
+
+You should define one composable for each occurrence of the UI element. 
+
+
+Correct
+That’s correct! Composable functions can take in parameters and emit a UI element which can be reused in many parts of your application.
+
+2.
+Question 2
+How does an Activity allow the user to interact with an Android app? 
+
+1 / 1 point
+
+It allows the app to access system resources. 
+
+
+
+It allows the user to view content.
+
+
+
+It provides the window for the app's user interface and allows the user to interact with the UI elements. 
+
+
+Correct
+That’s correct! An Activity is the app component that contains the user interface. 
+
+3.
+Question 3
+ What is an XML file used for in an Android project?
+
+1 / 1 point
+
+ Styling a view
+
+
+
+ Defining a ViewGroup
+
+
+
+ Storing structured information
+
+
+Correct
+That's correct! An XML file in an Android app stores information on how the Android OS should draw the views on the screen.
+
+4.
+Question 4
+What is the Activity lifecycle?
+
+1 / 1 point
+
+States an activity instance goes through from start to termination
+
+
+
+A collection of callback methods
+
+
+
+A method of placing an activity’s content
+
+
+
+A function for determining the screen orientation
+
+
+Correct
+Correct! An activity progresses through different states such as created, started, and resumed while an app is in use.
+
+5.
+Question 5
+Which of the following are examples of view groups? Select all that apply. 
+
+0 / 1 point
+
+LinearLayout
+
+
+Correct
+That's correct! A LinearLayout linearly organizes the contained views horizontally or vertically as a single row or a single column.
+
+
+GridViewLayout
+
+
+This should not be selected
+Not quite. Please review the reading 
+UI representation in XML
+.
+
+
+FrameLayout
+
+
+Correct
+That's correct!  FrameLayout is designed to block out an area on the screen to display a single item.
+
+
+RelativeLayout
+
+
+Correct
+That's correct! A RelativeLayout specifies the position of contained views relative to each other.
+
+6.
+Question 6
+What is a Composable in Android UI Development? 
+
+1 / 1 point
+
+A library of user interface components.
+
+
+
+A reusable component in Jetpack Compose. 
+
+
+
+An animation used to transition between activities 
+
+
+Correct
+That’s correct! In Jetpack Compose, each UI element is represented by a special function called composable.
+
+7.
+Question 7
+Which file must you add the Jetpack Compose Preview library dependency to in order to use it in your project?
+
+1 / 1 point
+
+build.gradle
+
+
+
+MainActivity.kt
+
+
+
+strings.xml
+
+
+Correct
+Correct! To use Jetpack Compose preview add the line implementation androidx.ui:ui-tooling:0.1.0-dev13 to your build.gradle file.
+
+8.
+Question 8
+Which of the following is an Invisible UI element that acts as a container to other views?
+
+1 / 1 point
+
+Layout
+
+
+
+A tree
+
+
+
+View group
+
+
+
+View
+
+
+Correct
+That's correct! View groups are a special kind of view that do not have an appearance of their own.
+
+9.
+Question 9
+When you are specifying the size of a text element on an Android UI, you can use the sp unit of measurement. This term is shorthand for?
+
+1 / 1 point
+
+Scale-independent pixel.
+
+
+
+Pixel Point
+
+
+
+Scale-dependent pixel
+
+
+Correct
+Scale-independent pixel is correct. It is similar to dp and often used to specify font sizes.
+
+10.
+Question 10
+Which of the following lays out composables horizontally?
+
+1 / 1 point
+
+View
+
+
+
+Row
+
+
+
+Box
+
+
+
+Column
+
+
+Correct
+That's correct! The main axis for a row is the horizontal axis, so you can set the horizontal arrangement.
